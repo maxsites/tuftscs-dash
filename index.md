@@ -6,7 +6,6 @@
 * [CS Class Tips](https://github.com/tekknolagi/tuftscs-tips)
 * [Change your CS password](https://www.eecs.tufts.edu/~accounts/)
 * [CS Course list](http://www.cs.tufts.edu/Course-Descriptions.html)
-* [Facebook group](https://www.prod.facebook.com/groups/TuftsCS/)
 * [Halligan Helper](http://halliganhelper.com)
 
 ## Email addresses
