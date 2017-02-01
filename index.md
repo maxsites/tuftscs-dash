@@ -1,6 +1,3 @@
----
----
-
 # Quick links for Tufts CS students
 
 * [tufts.io](http://tufts.io/)
