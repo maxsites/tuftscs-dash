@@ -2,15 +2,19 @@
 
 ## General
 
-* [tufts.io](http://tufts.io/)
+* [tufts.io (Student Resources and Projects)](http://tufts.io/)
 * [CS Class Tips](https://github.com/tekknolagi/tuftscs-tips)
 * [Change your CS password](https://www.eecs.tufts.edu/~accounts/)
 * [CS Course list](http://www.cs.tufts.edu/Course-Descriptions.html)
 * [Halligan Helper](http://halliganhelper.com)
+* [COMP199: Jobs Board](https://piazza.com/class/hyt3is3sixy5v5)
+* [CS Class Reviews by Students](http://tufts.io/classes)
 
 ## Email addresses
 
 * [Office Staff](mailto:csadmin@cs.tufts.edu)
+* [CSX](mailto:acmexecs@elist.tufts.edu)
+* [List of Recruiter / Alum emails](http://tufts.io/iwantajob)
 
 ## Facebook groups
 
