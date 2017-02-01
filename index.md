@@ -6,12 +6,11 @@
 * [Change your CS password](https://www.eecs.tufts.edu/~accounts/)
 * [Halligan Helper](http://halliganhelper.com)
 * [COMP199: Jobs Board](https://piazza.com/class/hyt3is3sixy5v5)
-* [CS Class Reviews by Students](http://tufts.io/classes)
 
 ## Classes
 
 * [CS class list](http://www.cs.tufts.edu/Course-Descriptions.html)
-* [CS class commentary](http://tufts.io/classes)
+* [CS class commentary by students](http://tufts.io/classes)
 * [CS class tips](https://github.com/tekknolagi/tuftscs-tips)
 * [Piazza](https://piazza.com/)
 
