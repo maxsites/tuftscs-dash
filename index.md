@@ -41,3 +41,12 @@
 
 * [Interview cheat sheet](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b)
 * [Google interview university](https://github.com/jwasham/google-interview-university)
+
+## Learn new things
+
+* [Learn X in Y minutes](https://learnxinyminutes.com/)
+
+## Practice, Practice, Practice
+
+* [HackerRank](https://www.hackerrank.com/)
+* [LeetCode](https://leetcode.com/)
