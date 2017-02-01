@@ -45,6 +45,13 @@
 ## Learn new things
 
 * [Learn X in Y minutes](https://learnxinyminutes.com/)
+* [Learn C in Y minutes (used in 40)](https://learnxinyminutes.com/docs/c/)
+* [Learn C++ in Y minutes (used in 11/15)](https://learnxinyminutes.com/docs/c++/)
+* [Learn Standard ML in Y minutes (used in 105)](https://learnxinyminutes.com/docs/standard-ml/)
+* [Learn Bash in Y minutes (helpful for navigating the terminal)](https://learnxinyminutes.com/docs/bash/)
+* [Learn Git in Y minutes (helpful for version control)](https://learnxinyminutes.com/docs/git/)
+* [Learn Vim in Y minutes (Vim is a wonderful text editor)](https://learnxinyminutes.com/docs/vim/)
+* [Learn LaTeX in Y minutes (great for formatting proofs)](https://learnxinyminutes.com/docs/latex/)
 
 ## Practice, Practice, Practice
 
