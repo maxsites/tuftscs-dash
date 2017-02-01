@@ -20,10 +20,16 @@
 * [CSX](mailto:acmexecs@elist.tufts.edu)
 * [List of Recruiter / Alum emails](http://tufts.io/iwantajob)
 
-## Facebook groups
+## Communication channels
+
+### Facebook groups
 
 * [Computer Science](https://www.facebook.com/groups/TuftsCS/)
 * [Women in Computer Science](https://www.facebook.com/groups/221500931381460/)
+
+### Discord
+
+* [Tufts CS](https://discord.gg/9Jyj2nt)
 
 ## TA sites
 
