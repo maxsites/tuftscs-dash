@@ -1,116 +1,145 @@
-<title>Tufts Dash</title>
-<h1>Dash: Quick links for Tufts CS students</h1>
+<html>
+    <head>
+        <style type="text/css">
+        /*
+           Tufts Blue: #3E8EDE;
+           Tufts Blue (accessible): #346094;
+           Tufts Brown: #512C1D;
+           Tufts Brown (accessible): #5E4B3C;
+        */
+        body {
+            width: 90vw;
+            background-color: #786556;
+            color: white;
+            position: relative;
+            margin: 0 auto;
+        }
 
-<style type="text/css">
-/* I fucking hate CSS. */
-div#container {
-    width: 80vw;
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
+        a {
+            color: white;
+            font-weight: bold;
+        }
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: inline-flex;
+        /* I fucking hate CSS. */
+        div#container {
+            margin: 0 auto;
 
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-}
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: inline-flex;
 
-div#container div {
-    background: lightgrey;
-    min-height: 100px;
-    min-width: 200px;
-    padding: 20px;
-    margin: 5px;
-}
-</style>
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+        }
 
-<div id="container">
-    <div>
-        <h2 id="general">General</h2>
-        <ul>
-            <li><a href="http://tufts.io/">tufts.io (Student Resources and Projects)</a></li>
-            <li><a href="https://www.eecs.tufts.edu/~accounts/">Change your CS password</a></li>
-            <li><a href="http://halliganhelper.com">Halligan Helper</a></li>
-            <li><a href="https://piazza.com/class/hyt3is3sixy5v5">COMP199: Jobs Board</a></li>
-        </ul>
-    </div>
+        div#container div.item {
+            background-color: #6793C7;
+            min-height: 100px;
+            min-width: 200px;
+            padding: 20px;
+            margin: 5px;
+        }
 
-    <div>
-        <h2 id="classes">Classes</h2>
-        <ul>
-            <li><a href="http://www.cs.tufts.edu/Course-Descriptions.html">CS class list</a></li>
-            <li><a href="http://tufts.io/classes">CS class commentary by students</a></li>
-            <li><a href="https://github.com/tekknolagi/tuftscs-tips">CS class tips</a></li>
-            <li><a href="https://piazza.com/">Piazza</a></li>
-        </ul>
-    </div>
+        div.title {
+            width: 100%;
+            text-align: center;
+        }
+        </style>
 
-    <div>
-        <h2 id="email-addresses">Email addresses</h2>
-        <ul>
-            <li><a href="mailto:csadmin@cs.tufts.edu">Office Staff</a></li>
-            <li><a href="mailto:acmexecs@elist.tufts.edu">CSX</a></li>
-            <li><a href="http://tufts.io/iwantajob">List of Recruiter / Alum emails</a></li>
-        </ul>
-    </div>
+        <title>Tufts Dash</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Dash: Quick links for Tufts CS students</h1>
+            </div>
 
-    <div>
-        <h2 id="communication-channels">Communication channels</h2>
-        <h3 id="facebook-groups">Facebook groups</h3>
-        <ul>
-            <li><a href="https://www.facebook.com/groups/TuftsCS/">Computer Science</a></li>
-            <li><a href="https://www.facebook.com/groups/221500931381460/">Women in Computer Science</a></li>
-        </ul>
-        <h3 id="discord">Discord</h3>
-        <ul>
-            <li><a href="https://discord.gg/9Jyj2nt">Tufts CS</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <h2 id="ta-sites">TA sites</h2>
-        <ul>
-            <li><a href="http://www.cs.tufts.edu/~molay/compta/">Apply to be a TA</a></li>
-            <li><a href="https://www.cs.tufts.edu/~molay/timecard/">Log your hours</a></li>
-            <li><a href="https://www.cs.tufts.edu/~molay/grading/15/">Grade COMP 15</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <h2 id="guides">Guides</h2>
-        <ul>
-            <li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google’s guide to technical development</a></li>
-            <li><a href="http://rogerdudler.github.io/git-guide/">Simple guide to Git</a></li>
-            <li><a href="https://help.github.com/articles/set-up-git/">GitHub’s guide to Git</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <h2 id="jobs-n-things">Jobs n things</h2>
-        <ul>
-            <li><a href="https://gist.github.com/TSiege/cbb0507082bb18ff7e4b">Interview cheat sheet</a></li>
-            <li><a href="https://github.com/jwasham/google-interview-university">Google interview university</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <h2 id="learn-new-things">Learn new things</h2>
-        <ul>
-            <li><a href="https://learnxinyminutes.com/">Learn X in Y minutes</a>
+            <div class="item">
+                <h2 id="general">General</h2>
                 <ul>
-                    <li><a href="https://learnxinyminutes.com/docs/c++/">Learn C++ in Y minutes</a> (used in 11/15)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/c/">Learn C in Y minutes</a> (used in 40)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/standard-ml/">Learn Standard ML in Y minutes</a> (used in 105)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/latex/">Learn LaTeX in Y minutes</a> (great for formatting proofs in 160/170/105)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/bash/">Learn Bash in Y minutes</a> (helpful for navigating the terminal)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/git/">Learn Git in Y minutes</a> (helpful for version control)</li>
-                    <li><a href="https://learnxinyminutes.com/docs/vim/">Learn Vim in Y minutes</a> (Vim is a wonderful text editor)</li>
+                    <li><a href="http://tufts.io/">tufts.io (Student Resources and Projects)</a></li>
+                    <li><a href="https://www.eecs.tufts.edu/~accounts/">Change your CS password</a></li>
+                    <li><a href="http://halliganhelper.com">Halligan Helper</a></li>
+                    <li><a href="https://piazza.com/class/hyt3is3sixy5v5">COMP199: Jobs Board</a></li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+            </div>
+
+            <div class="item">
+                <h2 id="classes">Classes</h2>
+                <ul>
+                    <li><a href="http://www.cs.tufts.edu/Course-Descriptions.html">CS class list</a></li>
+                    <li><a href="http://tufts.io/classes">CS class commentary by students</a></li>
+                    <li><a href="https://github.com/tekknolagi/tuftscs-tips">CS class tips</a></li>
+                    <li><a href="https://piazza.com/">Piazza</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="email-addresses">Email addresses</h2>
+                <ul>
+                    <li><a href="mailto:csadmin@cs.tufts.edu">Office Staff</a></li>
+                    <li><a href="mailto:acmexecs@elist.tufts.edu">CSX</a></li>
+                    <li><a href="http://tufts.io/iwantajob">List of Recruiter / Alum emails</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="communication-channels">Communication channels</h2>
+                <h3 id="facebook-groups">Facebook groups</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/groups/TuftsCS/">Computer Science</a></li>
+                    <li><a href="https://www.facebook.com/groups/221500931381460/">Women in Computer Science</a></li>
+                </ul>
+                <h3 id="discord">Discord</h3>
+                <ul>
+                    <li><a href="https://discord.gg/9Jyj2nt">Tufts CS</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="ta-sites">TA sites</h2>
+                <ul>
+                    <li><a href="http://www.cs.tufts.edu/~molay/compta/">Apply to be a TA</a></li>
+                    <li><a href="https://www.cs.tufts.edu/~molay/timecard/">Log your hours</a></li>
+                    <li><a href="https://www.cs.tufts.edu/~molay/grading/15/">Grade COMP 15</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="guides">Guides</h2>
+                <ul>
+                    <li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google’s guide to technical development</a></li>
+                    <li><a href="http://rogerdudler.github.io/git-guide/">Simple guide to Git</a></li>
+                    <li><a href="https://help.github.com/articles/set-up-git/">GitHub’s guide to Git</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="jobs-n-things">Jobs n things</h2>
+                <ul>
+                    <li><a href="https://gist.github.com/TSiege/cbb0507082bb18ff7e4b">Interview cheat sheet</a></li>
+                    <li><a href="https://github.com/jwasham/google-interview-university">Google interview university</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h2 id="learn-new-things">Learn new things</h2>
+                <ul>
+                    <li><a href="https://learnxinyminutes.com/">Learn X in Y minutes</a>
+                        <ul>
+                            <li><a href="https://learnxinyminutes.com/docs/c++/">Learn C++ in Y minutes</a> (used in 11/15)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/c/">Learn C in Y minutes</a> (used in 40)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/standard-ml/">Learn Standard ML in Y minutes</a> (used in 105)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/latex/">Learn LaTeX in Y minutes</a> (great for formatting proofs in 160/170/105)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/bash/">Learn Bash in Y minutes</a> (helpful for navigating the terminal)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/git/">Learn Git in Y minutes</a> (helpful for version control)</li>
+                            <li><a href="https://learnxinyminutes.com/docs/vim/">Learn Vim in Y minutes</a> (Vim is a wonderful text editor)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
