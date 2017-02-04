@@ -16,11 +16,6 @@
             font-family: sans-serif;
         }
 
-        a {
-            color: white;
-            font-weight: bold;
-        }
-
         /* I fucking hate CSS. */
         div#container {
             margin: 0 auto;
@@ -35,6 +30,11 @@
             flex-flow: row wrap;
         }
 
+        div#container div.title {
+            width: 100%;
+            text-align: center;
+        }
+
         div#container div.item {
             background-color: #6793C7;
             min-height: 100px;
@@ -43,9 +43,15 @@
             margin: 5px;
         }
 
-        div.title {
-            width: 100%;
-            text-align: center;
+        div#container div.item h2,
+        div#container div.item h3,
+        div#container div.item ul {
+            margin: 5px;
+        }
+
+        div#container div.item a {
+            color: white;
+            font-weight: bold;
         }
         </style>
 
@@ -113,9 +119,9 @@
             <div class="item">
                 <h2 id="guides">Guides</h2>
                 <ul>
-                    <li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google’s guide to technical development</a></li>
+                    <li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google's guide to technical development</a></li>
                     <li><a href="http://rogerdudler.github.io/git-guide/">Simple guide to Git</a></li>
-                    <li><a href="https://help.github.com/articles/set-up-git/">GitHub’s guide to Git</a></li>
+                    <li><a href="https://help.github.com/articles/set-up-git/">GitHub's guide to Git</a></li>
                 </ul>
             </div>
 
@@ -130,17 +136,13 @@
             <div class="item">
                 <h2 id="learn-new-things">Learn new things</h2>
                 <ul>
-                    <li><a href="https://learnxinyminutes.com/">Learn X in Y minutes</a>
-                        <ul>
-                            <li><a href="https://learnxinyminutes.com/docs/c++/">Learn C++ in Y minutes</a> (used in 11/15)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/c/">Learn C in Y minutes</a> (used in 40)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/standard-ml/">Learn Standard ML in Y minutes</a> (used in 105)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/latex/">Learn LaTeX in Y minutes</a> (great for formatting proofs in 160/170/105)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/bash/">Learn Bash in Y minutes</a> (helpful for navigating the terminal)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/git/">Learn Git in Y minutes</a> (helpful for version control)</li>
-                            <li><a href="https://learnxinyminutes.com/docs/vim/">Learn Vim in Y minutes</a> (Vim is a wonderful text editor)</li>
-                        </ul>
-                    </li>
+                    <li><a href="https://learnxinyminutes.com/docs/c++/">Learn C++ in Y minutes</a> (used in 11/15)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/c/">Learn C in Y minutes</a> (used in 40)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/standard-ml/">Learn Standard ML in Y minutes</a> (used in 105)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/latex/">Learn LaTeX in Y minutes</a> (great for formatting proofs in 160/170/105)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/bash/">Learn Bash in Y minutes</a> (helpful for navigating the terminal)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/git/">Learn Git in Y minutes</a> (helpful for version control)</li>
+                    <li><a href="https://learnxinyminutes.com/docs/vim/">Learn Vim in Y minutes</a> (Vim is a wonderful text editor)</li>
                 </ul>
             </div>
 
