@@ -1,6 +1,6 @@
 # Dash
 
-See [this](https://maxsites.github.io/tuftscs-dash/) for the live dashboard.
+See [this](http://dash.tufts.io/) for the live dashboard.
 
 ## How can I add links?
 
