@@ -65,6 +65,16 @@
             bottom: 0;
         }
         </style>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                /* For "jump to class" functionality. */
+                document.getElementById("jump-class").addEventListener("submit", function() {
+                    event.preventDefault();
+                    var classNumber = document.getElementById("class-num").value;
+                    window.location.href = "http://www.cs.tufts.edu/comp/" + classNumber;
+                });
+            });
+        </script>
 
         <title>Tufts Dash</title>
     </head>
@@ -94,6 +104,15 @@
                     <li><a href="https://github.com/tekknolagi/tuftscs-tips">CS class tips</a></li>
                     <li><a href="https://piazza.com/">Piazza</a></li>
                 </ul>
+                <noscript>
+                    <style>
+                        #jump-class { display: none; }
+                    </style>
+                </noscript>
+                <form id="jump-class">
+                    <label style="display: block" for="class-num">Jump to class (eg: 160, 105):</label>
+                    <input type="text" name="class-num" id="class-num" />
+                </form>
             </div>
 
             <div class="item">
