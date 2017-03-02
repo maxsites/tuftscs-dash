@@ -65,17 +65,6 @@
             bottom: 0;
         }
         </style>
-        <script type="text/javascript">
-            document.addEventListener("DOMContentLoaded", function() {
-                /* For "jump to class" functionality. */
-                document.getElementById("jump-class").addEventListener("submit", function() {
-                    event.preventDefault();
-                    var classNumber = document.getElementById("class-num").value;
-                    window.location.href = "http://www.cs.tufts.edu/comp/" + classNumber;
-                });
-            });
-        </script>
-
         <title>Tufts Dash</title>
     </head>
     <body>
@@ -109,9 +98,9 @@
                         #jump-class { display: none; }
                     </style>
                 </noscript>
-                <form id="jump-class">
-                    <label style="display: block" for="class-num">Jump to class (eg: 160, 105):</label>
-                    <input type="text" name="class-num" id="class-num" />
+                <form method="GET" action="http://dash.tufts.io/go.html" id="jump-class">
+                    <label style="display: block" for="classNum">Jump to class (eg: 160, 105):</label>
+                    <input type="text" name="classNum" id="classNum" />
                 </form>
             </div>
 
