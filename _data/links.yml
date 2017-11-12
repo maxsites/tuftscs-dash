@@ -1,0 +1,201 @@
+---
+- name: Academic Resources
+  links:
+    - name: Academic Bulletin
+      url: http://uss.tufts.edu/stuServ/bulletin/
+    - name: Academic Calendar
+      url: http://uss.tufts.edu/stuServ/acadcal/
+    - name: Academic Resource Center
+      url: http://uss.tufts.edu/arc/
+    - name: Tisch Library
+      url: http://www.library.tufts.edu/tisch/index.html
+- name: Campus Media
+  links:
+    - name: The Tufts Daily
+      url: http://tuftsdaily.com/
+    - name: Hemispheres
+      url: http://ase.tufts.edu/hemispheres/
+    - name: TuftScope
+      url: http://tuftscope.squarespace.com/
+    - name: Tufts Observer
+      url: http://www.tuftsobserver.org/
+    - name: Outbreath
+      url: http://ase.tufts.edu/outbreath/
+    - name: Tufts Traveler
+      url: http://ase.tufts.edu/traveler/
+    - name: Tufts Public Journal
+      url: http://ase.tufts.edu/thepublicjournal/
+    - name: WMFO 91.5FM
+      url: http://www.wmfo.org/
+    - name: TUTV
+      url: http://www.tuftstv.com/
+    - name: JumboCast
+      url: http://www.jumbocast.com/
+    - name: Film Series
+      url: http://ase.tufts.edu/filmseries/
+    - name: Zamboni
+      url: http://www.ase.tufts.edu/zamboni/
+    - name: Film Series
+      url: http://www.tuftsfilmseries.com/
+    - name: Fletcher Ledger
+      url: http://www.fletcherledger.com/
+    - name: JumboCast
+      url: http://www.jumbocast.net/
+    - name: The Primary Source
+      url: http://primarysource.typepad.com/
+    - name: Tufts Now
+      url: http://now.tufts.edu/
+- name: Merchandise
+  links:
+    - name: Tufts Bookstore
+      url: http://tufts.bncollege.com/
+    - name: Tufts Student Software Discounts
+      url: http://uit.tufts.edu/?pid=330
+    - name: Alumni Merchandise
+      url: http://www.tufts.edu/alumni/s-merchandise.html
+- name: Online Services
+  links:
+    - name: SIS/WebCenter
+      url: https://sis.uit.tufts.edu/
+    - name: Student Life
+      url: http://students.tufts.edu/
+    - name: Block Schedule [PDF]
+      url: https://students.tufts.edu/sites/default/files/REGBlockSchedule.pdf
+    - name: Room Reservations
+      url: https://roomscheduling.tufts.edu/VirtualEMS/
+    - name: Campus Map
+      url: http://campusmaps.tufts.edu/medford/
+    - name: Parking Services
+      url: http://publicsafety.tufts.edu/adminsvc/frequently-asked-parking-questions/
+    - name: Shuttle Schedules
+      url: http://publicsafety.tufts.edu/adminsvc/shuttle-services-2/
+    - name: Dining Services Menus
+      url: http://menus.tufts.edu/foodpro/location.asp
+    - name: JobX (Student Employment)
+      url: https://tufts.studentemployment.ngwebsolutions.com/
+    - name: Handshake (Student Employment)
+      url: https://tufts.joinhandshake.com/login
+    - name: JumboCash Management
+      url: http://www.jumbocash.net/
+    - name: Online Financial Aid System
+      url: https://students.tufts.edu/financial-services/financial-aid
+    - name: Trunk
+      url: http://trunk.tufts.edu/
+    - name: Tufts Bikes
+      url: http://tuftsbikes.wordpress.com/
+    - name: Visual Understanding Environment
+      url: http://vue.tufts.edu/
+- name: Schools & Departments
+  links:
+    - name: Arts & Sciences
+      url: http://as.tufts.edu/
+    - name: Engineering
+      url: http://engineering.tufts.edu/
+    - name: Ex-College
+      url: http://www.excollege.tufts.edu/
+    - name: Institute for Global Leadership
+      url: http://tuftsgloballeadership.org/
+    - name: Tisch College of Citizenship & Public Service
+      url: http://activecitizen.tufts.edu/
+    - name: Museum of Fine Arts
+      url: http://www.smfa.edu/
+    - name: New England Conservatory (NEC)
+      url: https://necmusic.edu/
+    - name: Athletics
+      url: http://www.gotuftsjumbos.com/landing/index
+- name: Student Government
+  links:
+    - name: TCU Senate
+      url: https://www.tcu.tufts.edu/
+    - name: Elections Commission (ECOM)
+      url: https://www.tcu.tufts.edu/about-ecom/
+    - name: Programming Board
+      url: http://tupboard.github.io/
+    - name: Tufts Shuttle (Joey)
+      url: http://publicsafety.tufts.edu/adminsvc/the-joey-medfordsomerville-campus-shuttle/
+    - name: TCU Judiciary
+      url: http://ase.tufts.edu/tcuj/
+    - name: Graduate Student Council
+      url: http://ase.tufts.edu/gsc/
+    - name: Engineering Student Council
+      url: http://sites.tufts.edu/esc/
+- name: Student Services
+  links:
+    - name: Career Services
+      url: http://careers.tufts.edu/
+    - name: Counseling Center
+      url: http://ase.tufts.edu/counseling/
+    - name: Ears for Peers
+      url: http://ase.tufts.edu/earsforpeers/
+    - name: Facilities
+      url: http://www.tufts.edu/central/facilities/medford/index.html
+    - name: Financial Aid
+      url: http://uss.tufts.edu/finaid/
+    - name: Greek Life
+      url: http://ase.tufts.edu/greek/
+    - name: Health Service
+      url: http://ase.tufts.edu/healthservice/
+    - name: Mail Services
+      url: http://www.tufts.edu/central/mailservices/
+    - name: Registrar
+      url: http://uss.tufts.edu/registrar/
+    - name: University Chaplaincy
+      url: http://chaplaincy.tufts.edu/
+    - name: Student Employment
+      url: https://students.tufts.edu/financial-services/student-employment
+    - name: Eco Off-Campus
+      url: http://sustainability.tufts.edu/offcampus-resources/
+    - name: Residential Life (ResLife)
+      url: http://ase.tufts.edu/reslife/
+    - name: Student Activities
+      url: http://ase.tufts.edu/osa/
+    - name: Study Abroad
+      url: http://uss.tufts.edu/studyabroad/
+    - name: TEMS
+      url: http://publicsafety.tufts.edu/ems/
+    - name: Tufts Online
+      url: https://it.tufts.edu/online-learning
+    - name: UIT
+      url: http://uit.tufts.edu/
+    - name: Tufts Student Resources
+      url: https://students.tufts.edu/resources
+    - name: Off-Campus Housing Resource Center
+      url: http://ase.tufts.edu/och/
+    - name: Tufts Reviews
+      url: http://tufts.jumboaccess.com/
+    - name: TuftsTools
+      url: https://tuftstools.tufts.edu/
+    - name: Alumni Association
+      url: http://tuftsalumni.org/connect-with-alumni/students-and-the-tufts-alumni-association/
+    - name: Campus Life
+      url: http://ocl.tufts.edu/
+    - name: Crafts Center
+      url: http://www.tuftscrafts.com/
+    - name: Dean of Student Affairs
+      url: http://uss.tufts.edu/studentaffairs/
+    - name: Dining Services
+      url: http://dining.tufts.edu/
+    - name: Eco Off-Campus
+      url: http://www.ecooffcampus.com/
+    - name: Facilities Request (On Campus)
+      url: https://fsrequest.tufts.edu/WebMaint/
+    - name: Sexual Misconduct Resources
+      url: http://uss.tufts.edu/studentaffairs/handbook/campus/sexualassault.asp
+    - name: Student Handbook
+      url: http://uss.tufts.edu/studentaffairs/handbook/
+    - name: TUPD
+      url: http://publicsafety.tufts.edu/police/
+- name: Group of Six
+  links:
+    - name: Africana Center
+      url: http://ase.tufts.edu/africana/
+    - name: Asian American Center
+      url: http://ase.tufts.edu/asianam/
+    - name: International Center
+      url: http://ase.tufts.edu/icenter/
+    - name: Latino Center
+      url: http://ase.tufts.edu/latinocenter/
+    - name: LGBT Center
+      url: http://ase.tufts.edu/lgbt/
+    - name: Women's Center
+      url: http://ase.tufts.edu/womenscenter/
