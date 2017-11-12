@@ -1,38 +1,44 @@
 ---
 ---
-<style type="text/css">
-body {
-    margin: 15px 0 0 40px;
-}
-/* On the flex container: */
-.flexcontainer {
-    display: -webkit-flex;
-    display: flex;
+<html>
+    <head>
+        <style type="text/css">
+        body {
+            margin: 15px 0 0 40px;
+        }
+        /* On the flex container: */
+        .flexcontainer {
+            display: -webkit-flex;
+            display: flex;
 
-    /* Remove for non-flexible height: */
-    flex-direction: column; flex-wrap: wrap; height: 100%;
+            /* Remove for non-flexible height: */
+            flex-direction: column; flex-wrap: wrap; height: 100%;
 
-    /* For non-flexible height: */
-    /* -webkit-flex-direction: row;
-    flex-direction: row;
-    flex-flow: row wrap;
-    */
-}
+            /* For non-flexible height: */
+            /* -webkit-flex-direction: row;
+            flex-direction: row;
+            flex-flow: row wrap;
+            */
+        }
 
-.flexcontainer div {
-    /* Remove for non-flexible height: */
-    width: 200px;
-}
-</style>
-<div class="flexcontainer">
-    {% for section in site.data.links %}
-    <div>
-        <h2>{{ section.name }}</h2>
-        <ol>
-            {% for link in section.links %}
-            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        .flexcontainer div {
+            /* Remove for non-flexible height: */
+            width: 200px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="flexcontainer">
+            {% for section in site.data.links %}
+            <div>
+                <h2>{{ section.name }}</h2>
+                <ol>
+                    {% for link in section.links %}
+                    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                    {% endfor %}
+                </ol>
+            </div>
             {% endfor %}
-        </ol>
-    </div>
-    {% endfor %}
-</div>
+        </div>
+    </body>
+</html>
