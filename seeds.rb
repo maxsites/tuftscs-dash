@@ -1,3 +1,5 @@
+require 'yaml'
+
 academic_resources = 'Academic Resources'
 campus_media = 'Campus Media'
 merchandise = 'Merchandise'
@@ -13,9 +15,9 @@ def linkgroup(kwargs)
     website = kwargs[:website]
     category_id = kwargs[:category_id]
     if $sections.has_key? category_id
-        $sections[category_id] << [name, website]
+        $sections[category_id] << {'name' => name, 'url' => website}
     else
-        $sections[category_id] = [[name, website]]
+        $sections[category_id] = [{'name' => name, 'url' => website}]
     end
 end
 
@@ -57,13 +59,12 @@ linkgroup(:name => 'Tisch College of Citizenship & Public Service', :website => 
 linkgroup(:name => 'Museum of Fine Arts', :website => 'http://www.smfa.edu/', :category_id => schools_and_departments)
 linkgroup(:name => 'New England Conservatory (NEC)', :website => 'https://necmusic.edu/', :category_id => schools_and_departments)
 linkgroup(:name => 'Athletics', :website => 'http://www.gotuftsjumbos.com/landing/index', :category_id => schools_and_departments)
-linkgroup(:name => 'Alumni Association', :website => 'https://alumniandfriends.tufts.edu/', :category_id => schools_and_departments)
 
 
 linkgroup(:name => 'TCU Senate', :website => 'https://www.tcu.tufts.edu/', :category_id => student_government)
 linkgroup(:name => 'Elections Commission (ECOM)', :website => 'https://www.tcu.tufts.edu/about-ecom/', :category_id => student_government)
 linkgroup(:name => 'Programming Board', :website => 'http://tupboard.github.io/', :category_id => student_government)
-linkgroup(:name => 'JoeyGPS', :website => 'http://publicsafety.tufts.edu/adminsvc/the-joey-medfordsomerville-campus-shuttle/', :category_id => student_government)
+linkgroup(:name => 'Tufts Shuttle (Joey)', :website => 'http://publicsafety.tufts.edu/adminsvc/the-joey-medfordsomerville-campus-shuttle/', :category_id => student_government)
 linkgroup(:name => 'TCU Judiciary', :website => 'http://ase.tufts.edu/tcuj/', :category_id => student_government)
 linkgroup(:name => 'Graduate Student Council', :website => 'http://ase.tufts.edu/gsc/', :category_id => student_government)
 
@@ -89,12 +90,82 @@ linkgroup(:name => 'UIT', :website => 'http://uit.tufts.edu/', :category_id => s
 linkgroup(:name => 'Tufts Student Resources', :website => 'https://students.tufts.edu/resources', :category_id => student_services)
 linkgroup(:name => 'Off-Campus Housing Resource Center', :website => 'http://ase.tufts.edu/och/', :category_id => student_services)
 linkgroup(:name => 'Tufts Reviews', :website => 'http://tufts.jumboaccess.com/', :category_id => student_services)
+linkgroup(:name => 'TuftsTools', :website => 'https://tuftstools.tufts.edu/', :category_id => 'Student Services')
 
-$sections.each do |section, links|
-    puts "<h2>#{section}</h2>"
-    puts "<ol>"
-    $sections[section].each do |name, link|
-        puts "  <li><a href=\"#{link}\">#{name}</a></li>"
+linkgroup(:name => 'Africana Center', :website => 'http://ase.tufts.edu/africana/', :category_id => 'Group of Six')
+linkgroup(:name => 'Asian American Center', :website => 'http://ase.tufts.edu/asianam/', :category_id => 'Group of Six')
+linkgroup(:name => 'International Center', :website => 'http://ase.tufts.edu/icenter/', :category_id => 'Group of Six')
+linkgroup(:name => 'Latino Center', :website => 'http://ase.tufts.edu/latinocenter/', :category_id => 'Group of Six')
+linkgroup(:name => 'LGBT Center', :website => 'http://ase.tufts.edu/lgbt/', :category_id => 'Group of Six')
+linkgroup(:name => 'Women\'s Center', :website => 'http://ase.tufts.edu/womenscenter/', :category_id => 'Group of Six')
+linkgroup(:name => 'Alumni Association', :website => 'http://tuftsalumni.org/connect-with-alumni/students-and-the-tufts-alumni-association/', :category_id => 'Student Services')
+linkgroup(:name => 'Campus Life', :website => 'http://ocl.tufts.edu/', :category_id => 'Student Services')
+linkgroup(:name => 'Crafts Center', :website => 'http://www.tuftscrafts.com/', :category_id => 'Student Services')
+linkgroup(:name => 'Dean of Student Affairs', :website => 'http://uss.tufts.edu/studentaffairs/', :category_id => 'Student Services')
+linkgroup(:name => 'Dining Services', :website => 'http://dining.tufts.edu/', :category_id => 'Student Services')
+linkgroup(:name => 'Eco Off-Campus', :website => 'http://www.ecooffcampus.com/', :category_id => 'Student Services')
+linkgroup(:name => 'Facilities Request (On Campus)', :website => 'https://fsrequest.tufts.edu/WebMaint/', :category_id => 'Student Services')
+linkgroup(:name => 'Sexual Misconduct Resources', :website => 'http://uss.tufts.edu/studentaffairs/handbook/campus/sexualassault.asp', :category_id => 'Student Services')
+linkgroup(:name => 'Student Handbook', :website => 'http://uss.tufts.edu/studentaffairs/handbook/', :category_id => 'Student Services')
+linkgroup(:name => 'TUPD', :website => 'http://publicsafety.tufts.edu/police/', :category_id => 'Student Services')
+linkgroup(:name => 'Film Series', :website => 'http://www.tuftsfilmseries.com/', :category_id => 'Campus Media')
+linkgroup(:name => 'Fletcher Ledger', :website => 'http://www.fletcherledger.com/', :category_id => 'Campus Media')
+linkgroup(:name => 'JumboCast', :website => 'http://www.jumbocast.net/', :category_id => 'Campus Media')
+linkgroup(:name => 'The Primary Source', :website => 'http://primarysource.typepad.com/', :category_id => 'Campus Media')
+linkgroup(:name => 'Tufts Now', :website => 'http://now.tufts.edu/', :category_id => 'Campus Media')
+linkgroup(:name => 'Dining Services Menus', :website => 'http://menus.tufts.edu/foodpro/location.asp', :category_id => 'Online Services')
+linkgroup(:name => 'JobX (Student Employment)', :website => 'https://tufts.studentemployment.ngwebsolutions.com/', :category_id => 'Online Services')
+linkgroup(:name => 'Handshake (Student Employment)', :website => 'https://tufts.joinhandshake.com/login', :category_id => 'Online Services')
+linkgroup(:name => 'JumboCash Management', :website => 'http://www.jumbocash.net/', :category_id => 'Online Services')
+linkgroup(:name => 'Online Financial Aid System', :website => 'https://students.tufts.edu/financial-services/financial-aid', :category_id => 'Online Services')
+linkgroup(:name => 'Trunk', :website => 'http://trunk.tufts.edu/', :category_id => 'Online Services')
+linkgroup(:name => 'Tufts Bikes', :website => 'http://tuftsbikes.wordpress.com/', :category_id => 'Online Services')
+linkgroup(:name => 'Visual Understanding Environment', :website => 'http://vue.tufts.edu/', :category_id => 'Online Services')
+linkgroup(:name => 'Engineering Student Council', :website => 'http://sites.tufts.edu/esc/', :category_id => 'Student Government')
+
+format = 'yaml'
+
+if format == 'html'
+    puts <<END_HEADER
+<style type="text/css">
+body {
+    margin: 15px 0 0 40px;
+}
+/*On the flex container*/
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+
+    /* Remove for non-flexible height: */
+    flex-direction: column; flex-wrap: wrap; height: 100%;
+
+    /* For non-flexible height: */
+    /* -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-flow: row wrap;
+    */
+}
+
+.flexcontainer div {
+    /* Remove for non-flexible height: */
+    width: 200px;
+}
+</style>
+<div class="flexcontainer">
+END_HEADER
+    $sections.each do |section, links|
+        puts "<div>"
+        puts "<h2>#{section}</h2>"
+        puts "<ol>"
+        $sections[section].each do |link|
+            puts "  <li><a href=\"#{link['url']}\">#{link['name']}</a></li>"
+        end
+        puts "</ol>\n\n"
+        puts "</div>"
     end
-    puts "</ol>\n\n"
+    puts "</div>"
+elsif format == 'yaml'
+    puts YAML.dump($sections)
+else
+    puts "Invalid output format."
 end
