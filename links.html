@@ -6,12 +6,14 @@
         body {
             margin: 15px 0 0 40px;
         }
+
         /* On the flex container: */
         .flexcontainer {
             display: -webkit-flex;
             display: flex;
 
             /* Remove for non-flexible height: */
+            -webkit-flex-direction: column;
             flex-direction: column; flex-wrap: wrap; height: 100%;
 
             /* For non-flexible height: */
